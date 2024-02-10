@@ -1,0 +1,48 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "name": {
+      "value": "mym-works"
+    },
+    "location": {
+      "value": "East Asia"
+    },
+    "sku": {
+      "value": "Standard"
+    },
+    "skucode": {
+      "value": "Standard"
+    },
+    "repositoryUrl": {
+      "value": "https://github.com/komayama/mym.works"
+    },
+    "branch": {
+      "value": "main"
+    },
+    "repositoryToken": {
+      "value": "<YOUR-GITHUB-PAT>"
+    },
+    "appLocation": {
+      "value": "/app"
+    },
+    "apiLocation": {
+      "value": ""
+    },
+    "appArtifactLocation": {
+      "value": "/app/build"
+    },
+    "resourceTags": {
+      "value": {
+        "Environment": "Production",
+        "Project": "mym.works office site",
+        "ApplicationName": "mym-works"
+      }
+    },
+    "appSettings": {
+      "value": {
+        "SITE_NAME": "mym-works"
+      }
+    }
+  }
+}
